@@ -11,6 +11,8 @@ body
 }
 .topnav
 {
+    position: absolute;
+    right: 1rem;
     text-align: right;
     float: right;
     color: blue;
@@ -37,20 +39,22 @@ body
 {
     height: 60%;
     width: 60%;
+    justify-content: center;
+    align-items: center;
 
 }
 .searchBar
 {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #searchBar
 {
-    width: 100%;
+    width: 50%;
     height: 2rem;
-    border: 2px inset rgb(94, 92, 92);
+    border: 2px outset rgb(94, 92, 92), rgb(94, 92, 92) ;
     font-family: monospace;
     font-size: large;
 }
@@ -69,13 +73,36 @@ body
     padding-right: 1rem;
     font-weight: 400;
     margin: 1rem;
+    border: outset  rgb(94, 92, 92);
 }
 @media only screen and (max-width: 768px) {
 .scr-btn{
     font-size: .7em;
+    justify-content: space-around;
+}
+#searchBar{
+    width: 80%;
 }
 }
 button:hover
 {
     cursor: pointer;
+}
+#error
+{
+    width: 75%;
+}
+#signin:hover
+{
+cursor: pointer;
+}
+#adscr:hover
+{
+    cursor: pointer;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 }
