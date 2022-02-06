@@ -45,6 +45,50 @@ else if (search == "dhinakar")
 {
     window.location.href = "https://karan-github96.github.io/Dhinakar-Page/mobile-site/index.html";
 }
+else if (search == "Manikandan")
+{
+    window.location.href = "https://coder-karikaalan.github.io/Manikandan/";
+}
+else if (search == "Mani")
+{
+    window.location.href = "https://coder-karikaalan.github.io/Manikandan/";
+}
+else if (search == "mani")
+{
+    window.location.href = "https://coder-karikaalan.github.io/Manikandan/";
+}
+else if (search == "manikandan")
+{
+    window.location.href = "https://coder-karikaalan.github.io/Manikandan/";
+}
+else if (search == "manikandan")
+{
+    window.location.href = "https://coder-karikaalan.github.io/Manikandan/";
+}
+else if (search == "Majestik Construction")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
+else if (search == "Majestik construction")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
+else if (search == "majestik construction")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
+else if (search == "Majestikconstruction")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
+else if (search == "Majestik")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
+else if (search == "majestik")
+{
+    window.location.href = "https://www.majestikconstruction.in/";
+}
 else
 {
     window.location.href = "./error.html";
